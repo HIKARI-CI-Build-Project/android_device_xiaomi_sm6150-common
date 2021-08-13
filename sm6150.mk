@@ -349,6 +349,10 @@ PRODUCT_PACKAGES += \
     librilutils \
     librmnetctl
 
+# Rootdir
+PRODUCT_PACKAGES +=\
+    init.performance_level.rc
+
 # Sensors
 PRODUCT_PACKAGES += \
     libsensorndkbridge
